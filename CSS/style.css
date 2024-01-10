@@ -46,10 +46,13 @@ body {
       
     }
     .jumbotron > .content h1{
-      margin: 0;
-      margin-top: 10px;
+      margin-right: 40%;
+      margin-left: 10%;
+      margin-top: 100px;
+      margin-bottom: 10px;
       padding: 0;
-      font-size: 6em;
+      font-size: 4em;
+      text-align: left;
       font-family: 'Kanit', sans-serif;
     }
 
@@ -58,9 +61,6 @@ body {
       font-family: 'Kanit', sans-serif;
     }
 
-    .input-group-btn {
-      
-    }
   .container-fluid {
     padding: 60px 50px;
   }
@@ -147,21 +147,26 @@ body {
   .navbar {
     margin-bottom: 0;
     padding: 0;
-    background-color: #F25C05;
+    background-color: #ffffff;
     z-index: 9999;
     border: 0;
     font-size: 15px !important;
-    line-height: 2 !important;
+    line-height: 2 ;
     letter-spacing: 4px;
     border-radius: 0;
     font-family: 'Kanit', sans-serif;
   }
-  .navbar-brand{
-    padding: 5px;
-    margin: 5px;
+  .navbar-brand {
+  width: 80px !important;
+  height: auto !important;
+  padding: 0;  
+  margin-bottom: 0;
+  color: #fff;
   }
-  .navbar li a, .navbar .navbar-brand {
-    color: #fff !important;
+  .navbar li a, .navbar  {
+    color: #0442BF !important;
+    padding-top: 10px;
+    padding-bottom: 10px;
   }
   .navbar-nav li a:hover, .navbar-nav li.active a {
     color: #F25C05 !important;
@@ -171,8 +176,19 @@ body {
     border-color: transparent;
     color: #fff !important;
   }
-  .btn #btn-danger{
-    width: 10px;
+  .btn-danger {
+    line-height: 2.5;
+    padding: 0 20px;
+    font-size: 1.6rem;
+    text-align: center;
+    text-shadow: 1px 1px 1px #000;
+    border-radius: 10px;
+    margin-top: 100px;
+    width: 175px;
+    height: 40px;
+    color: #fff;
+    background-color: #F25C05;
+    border-color: #F25C05;
   }
   footer .glyphicon {
     font-size: 20px;
